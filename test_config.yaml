@@ -1,0 +1,43 @@
+automation:
+  action_delay: 0.5
+  retry_attempts: 3
+  retry_delay: 1.0
+  screenshot_after_action: false
+  screenshot_before_action: true
+device:
+  android:
+    adb_host: null
+    adb_port: 5555
+    click_delay: 0.1
+    default_timeout: 30
+    screenshot_format: png
+  ios:
+    click_delay: 0.1
+    default_timeout: 30
+    device_udid: null
+    screenshot_format: png
+logging:
+  console_output: true
+  file_output: true
+  file_retention: 7 days
+  file_rotation: 10 MB
+  format: '{time:YYYY-MM-DD HH:mm:ss} | {level} | {name} | {message}'
+  level: INFO
+  log_directory: logs
+recognition:
+  color_detection:
+    blur_kernel_size: 5
+    tolerance: 30
+  ocr:
+    confidence_threshold: 0.7
+    enable_mkldnn: true
+    language: ch
+    use_gpu: false
+  template_matching:
+    method: TM_CCOEFF_NORMED
+    multi_scale: true
+    scale_range:
+    - 0.8
+    - 1.2
+    scale_step: 0.1
+    threshold: 0.8

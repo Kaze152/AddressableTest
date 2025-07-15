@@ -43,7 +43,7 @@ class Config:
             'recognition': {
                 'template_matching': {
                     'threshold': 0.8,
-                    'method': 'cv2.TM_CCOEFF_NORMED'
+                    'method': 'TM_CCOEFF_NORMED'
                 },
                 'ocr': {
                     'language': 'ch',  # Chinese and English
@@ -224,7 +224,7 @@ class Config:
             'recognition': {
                 'template_matching': {
                     'threshold': 0.8,
-                    'method': 'cv2.TM_CCOEFF_NORMED',
+                    'method': 'TM_CCOEFF_NORMED',
                     'multi_scale': True,
                     'scale_range': [0.8, 1.2],
                     'scale_step': 0.1

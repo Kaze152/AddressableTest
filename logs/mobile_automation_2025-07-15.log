@@ -1,0 +1,15 @@
+2025-07-15 08:25:24 | INFO | __main__ | Test info message
+2025-07-15 08:25:24 | WARNING | __main__ | Test warning message
+2025-07-15 08:26:37 | INFO | __main__ | Test info message
+2025-07-15 08:26:37 | WARNING | __main__ | Test warning message
+2025-07-15 08:27:31 | INFO | __main__ | Test info message
+2025-07-15 08:27:31 | WARNING | __main__ | Test warning message
+2025-07-15 08:28:58 | INFO | __main__ | Test info message
+2025-07-15 08:28:58 | WARNING | __main__ | Test warning message
+2025-07-15 08:28:58 | INFO | mobile_automation.recognition.template_matcher | Template matcher initialized with threshold=0.8
+2025-07-15 08:28:58 | INFO | mobile_automation.recognition.color_detector | Color detector initialized with tolerance=30
+2025-07-15 08:29:54 | INFO | __main__ | This is an info message
+2025-07-15 08:29:54 | WARNING | __main__ | This is a warning message
+2025-07-15 08:29:54 | ERROR | __main__ | This is an error message
+2025-07-15 08:29:54 | INFO | mobile_automation.recognition.template_matcher | Template matcher initialized with threshold=0.9
+2025-07-15 08:29:54 | INFO | mobile_automation.recognition.color_detector | Color detector initialized with tolerance=30
