@@ -1,0 +1,8 @@
+opencv-python>=4.8.0
+pillow>=10.0.0
+paddleocr>=2.7.0
+numpy>=1.24.0
+adb-shell>=0.4.3
+tidevice>=0.9.19
+pyyaml>=6.0
+loguru>=0.7.0
